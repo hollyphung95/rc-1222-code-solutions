@@ -1,0 +1,25 @@
+<!-- How do block-level elements affect the document flow? -->
+<!-- eg. <address>  <article> <aside> <blockquote>  <canvas>
+         <dd>  <div> <dl>  <dt>  <fieldset>  <figcaption>
+         <figure>  <footer>  <form>  <h1>-<h6> <header>  <hr>
+         <li>  <main>   <nav>  <noscript>  <ol>  <p> <pre>
+         <section>  <table>  <tfoot> <ul>  <video>
+- A block-level element always starts on a new line, and the browsers automatically add some space (a margin)
+before and after the element
+- A block-level element always takes up the full width available(stretches out to the left and right as far as it can).-->
+
+<!-- How do inline elements affect the document flow? -->
+<!-- eg.<a> <abbr> <acronym> <b> <bdo> <big>  <br> <button> <cite> <code> <dfn> <em>
+        <i> <img> <input> <kbd> <label>  <map> <object>  <output> <q>
+        <samp>  <script>  <select>  <small> <span>  <strong>  <sub> <sup>
+        <textarea>  <time>  <tt>  <var>
+  - An inline element does not start on a new line.
+  - An inline element only takes up as much width as necessary -->
+
+<!-- What are the default width and height of a block-level element?-->
+<!-- A Block-level element occupies the entire horizontal space of its parent element(container),
+     and vertical space equal to the height of its contents, thereby creating a "block".->
+
+<!-- What are the default width and height of an inline element?-->
+<!-- Inline elements are those which only occupy the space bounded by the tags defining the element,
+     instead of breaking the flow of the content.-->
