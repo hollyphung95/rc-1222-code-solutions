@@ -1,0 +1,12 @@
+<!-- Where do you put non-visible content about the HTML document? -->
+<!-- anything in the <head> tags is usually ABOUT the page (rather than
+info shown within main part of the browser window -->
+
+<!-- Where do you put visible content about the HTML document? -->
+<!-- anything inbetween the <body> tags-->
+
+<!-- Where do the <head> and <body> tags go in a valid HTML document?-->
+<!-- anything inbetween the <html> tags-->
+
+  <!-- What is the purpose of a <!DOCTYPE> declaration?-->
+<!-- To help the browser to render a page correctly.-->
