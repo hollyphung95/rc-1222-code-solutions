@@ -1,0 +1,26 @@
+<!-- What HTML Tag is used to link to another website -->
+The <a> opening tag and the </a> closing tag are used when creating a link.
+The <a> element has an href attribute.
+The href attribute has a value of the disired page post clicking on the link.
+In this case, the full web address for the site (aka the absolute URL)
+
+
+
+
+<!-- What is an absolute URL -->
+Its the Full Web address for the site.
+An absolute URL starts with the domain name for that site,
+and can be followed by the path to a specific page.
+If no page is specified, the site will display the homepage.
+
+
+
+
+
+<!-- What is a relative URL -->
+When you are linking to other pages within the same site,
+you do not need to specify the domain name in the URL.
+(You can use relative URLs, its just shorthand version of absolute URL)
+
+If all the pages of the site are in the same folder,
+then the value of the href attribute is just the name of the file.
