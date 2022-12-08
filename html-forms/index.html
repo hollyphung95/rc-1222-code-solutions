@@ -4,17 +4,11 @@
   <body>
     <h1>Coding Form!</h1>
     <form action="https://example.com/CodingForm.html" method="get">
-      <div>
-        <label for="email">
-          Email<br />
-          <input type="email" name="email" />
-        </label>
-      </div>
+      <div><label for="email">Email</label></div>
+      <div><input id="email" type="email" name="email" /></div>
 
+      <div><label for="why-cool">Why is coding cool?</label></div>
       <div>
-        <label for="why-cool">
-          Why is coding cool?
-        </label><br />
         <select name="reason" id="why-cool">
           <option value="select">Select an option</option>
           <option value="interesting">Because it's interesting</option>
@@ -41,14 +35,11 @@
         </label>
       </div>
 
-      <div>
-        <label for="comments">Comments<br />
-        </label>
-        <textarea name="comments" style="width: 250px; height: 150px;">Enter feedback comments here</textarea>
-      </div>
+      <div><label for="comments">Comments</label></div>
+      <div><textarea id="comments" name="comments" style="width: 250px; height: 150px;">Enter feedback comments here</textarea></div>
+      <div><label for="submit"></label></div>
+      <div><input id="submit" type="submit" value="Submit" /></div>
 
-      <br />
-      <input type="submit" name="submit" value="Submit" />
     </form>
   </body>
 </html>
