@@ -1,0 +1,64 @@
+* {
+  box-sizing: initial;
+  width: 500px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(236 93 87);
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-family: "Brandon Grotesque", sans-serif;
+  text-transform: uppercase;
+}
+
+#company-email,
+#name,
+#hiring-locations,
+#hiring-capacity {
+  width: 85%;
+  height: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  line-height: 5px;
+  font-size: 1rem;
+  border: 1px solid darkgrey;
+  border-radius: 6px;
+  font-weight: 300;
+  font-family: "Brandon Grotesque", sans-serif;
+}
+
+#hiring-capacity {
+  font-weight: 300;
+  background-color: rgb(240 240 240);
+}
+
+#submit-button {
+  width: auto;
+  line-height: 25px;
+  background-color: rgb(236 93 87);
+  border: none;
+  color: white;
+  border-radius: 15px;
+  margin-left: 73%;
+  font-weight: 300;
+  font-family: "Brandon Grotesque", sans-serif;
+  text-transform: uppercase;
+}
+
+input * {
+  margin: 20px 10px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: AtlasGrotesk, sans-serif;
+  line-height: 10px;
+}
+
+label {
+  font-size: 8px;
+  margin: 20px 15px;
+  font-weight: 500;
+  font-family: "Brandon Grotesque", sans-serif;
+  text-transform: uppercase;
+}
