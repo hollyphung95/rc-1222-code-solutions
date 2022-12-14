@@ -21,7 +21,6 @@ header {
   text-align: center;
   padding: 0;
   margin: 20px auto;
-  border: 2px solid black;
 }
 
 div {
@@ -31,7 +30,6 @@ div {
   align-items: left;
   align-content: left;
   margin: 0 auto;
-  border: 2px solid black;
 }
 
 section {
@@ -42,7 +40,6 @@ section {
   align-items: flex-start;
   align-content: left;
   margin: 10px auto;
-  border: 2px solid purple;
 }
 
 h1 {
@@ -77,17 +74,10 @@ p {
   align-items: left;
   align-content: left;
   margin: 0 auto;
-  border: 2px solid black;
 }
 
 img {
   width: 100px;
   height: 100px;
   float: left;
-  border: 2px solid green;
-}
-
-.small {
-  width: 70%;
-  height: 70%;
 }
