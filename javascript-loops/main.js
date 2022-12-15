@@ -70,7 +70,7 @@ function getKeys(object) {
   }
   return keys;
 }
-getKeys();
+getKeys([]);
 console.log(getKeys({ isbn: '978-1449365035', title: 'Speaking JS', author: 'Dr. Axel Rauschmayer' }));
 
 /* getValues */
@@ -81,5 +81,5 @@ function getValues(object) {
   }
   return values;
 }
-getValues();
+getValues([]);
 console.log(getValues({ isbn: '978-1449365035', title: 'Speaking JS', author: 'Dr. Axel Rauschmayer' }));
