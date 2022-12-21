@@ -58,12 +58,13 @@ var pokedex = [
 ];
 
 function renderPokemon(pokemon) {
-  var $newContainer = document.querySelector('.container');
-  var $newWrapper = document.querySelector('.row');
-  var $cardImg = document.createElement('img', 'src = ');
-  var $cardText = document.createElement('div', 'p');
 
   for (var i = 0; i < pokedex.length - 1; i++) {
+    var $newContainer = document.querySelector('.container');
+    var $newWrapper = document.querySelector('.row');
+    var $cardImg = document.createElement('img', 'src = ');
+    var $cardText = document.createElement('div', 'p');
+
     $newContainer.className = 'column-third';
     $newWrapper.className = 'pokemon-card';
 
