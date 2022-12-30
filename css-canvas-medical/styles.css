@@ -1,0 +1,103 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  font-size: 2rem;
+}
+
+nav {
+  margin: 10px;
+  padding: 10px;
+  justify-content: flex-end;
+  align-items: right;
+  text-decoration: none;
+  color: #c7c7c7;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  border: 10px solid black;
+}
+
+div {
+  flex-wrap: wrap;
+  border: 2px solid green;
+  padding: 20px;
+  margin: 20px;
+}
+
+.row {
+  display: flex;
+  width: inherit;
+  flex-wrap: wrap;
+  border: 2px solid blue;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}
+
+.column {
+  flex: 1;
+  align-items: left;
+}
+
+img {
+  width: 150px;
+  height: 0 auto;
+}
+
+.bg-img {
+  align-content: stretch;
+  justify-content: center;
+  background-image: url("images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.duo {
+  width: 300px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 15%;
+  color: white;
+  background-color: #2f4361;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.width-third {
+  width: calc(100% /3);
+}
+
+.white-text {
+  color: white;
+}
+
+.light-grey-text {
+  color: #c7c7c7;
+}
+
+.grey-text {
+  color: grey;
+}
+
+.bg-grey {
+  background-color: grey;
+}
+
+.bg-gray {
+  background-color: lightgray;
+}
