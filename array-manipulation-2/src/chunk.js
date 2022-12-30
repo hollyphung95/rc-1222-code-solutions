@@ -12,13 +12,9 @@ Do not use Array.prototype.slice in your implementation. */
 
 function chunk(array, size) {
   var resultArray = [];
-  var subArray = [];
-  if (array.length === 0) {
-    return resultArray;
+
+  for (var j = 0; j < array.length;) {
+    resultArray.push(array.slice(j, j += size));
   }
-  for (var j = 0; j < array.length % size; j++) {
-    subArray.push(array[j]);
-  }
-  resultArray.push(subArray[size]);
   return resultArray;
 }
