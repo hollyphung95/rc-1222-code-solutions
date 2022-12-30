@@ -1,10 +1,28 @@
 body {
-  font-family: sans-serif;
+  font-family: Avenir, "Tiempos Headline", sans-serif;
   margin: 0 auto;
+  font-size: 1.5 rem;
 }
 
 header {
   font-size: 2rem;
+}
+
+p,
+dl,
+dt,
+dd,
+a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.4 rem;
 }
 
 nav {
@@ -19,12 +37,12 @@ nav {
 .container {
   width: 100%;
   height: auto;
-  border: 10px solid black;
+  padding: 20px;
+  margin: 20px;
 }
 
 div {
   flex-wrap: wrap;
-  border: 2px solid green;
   padding: 20px;
   margin: 20px;
 }
@@ -33,7 +51,6 @@ div {
   display: flex;
   width: inherit;
   flex-wrap: wrap;
-  border: 2px solid blue;
   justify-content: space-between;
   padding: 20px;
   margin: 20px;
@@ -62,11 +79,13 @@ img {
   width: 300px;
 }
 
-button {
-  width: 100px;
-  height: 50px;
-  border-radius: 15%;
+.button {
+  width: 120px;
+  height: auto;
+  padding: 15px;
+  border-radius: 10%;
   color: white;
+  font-size: 1.1rem;
   background-color: #2f4361;
 }
 
