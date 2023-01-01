@@ -36,7 +36,8 @@ button:focus {
 }
 
 button:active {
-  translate: 0.25rem;
+  transform: translateY(0.25rem);
+  transition: all 0.5s;
 }
 
 div.pokeball-wrapper:first-child img {
