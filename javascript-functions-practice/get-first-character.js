@@ -1,0 +1,15 @@
+/* exported getFirstCharacter */
+
+/*
+Parameters
+string - a JavaScript string
+Return Value
+The first character of the input string.
+*/
+function getFirstCharacter(string) {
+  var returnValue = '';
+  if (string.length > 0) {
+    returnValue = string[0];
+  }
+  return returnValue;
+}
