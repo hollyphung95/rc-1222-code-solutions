@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #f7eb92;
+  box-shadow: 0 -10px 15px 4px #faec84;
+}
+
+.box::before {
+  background-color: #222224;
+  box-shadow: 0 -15px 10px 5px rgb(0 0 0 /75%);
+}
