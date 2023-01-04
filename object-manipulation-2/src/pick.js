@@ -10,16 +10,27 @@ if none of the properties in the array is found , the return object will return 
 */
 
 function pick(source, keys) {
-  var returnNewObj = {};
-  for (var key in keys) {
-    if ((source[key]) || (keys.length === 0)) {
-      return returnNewObj;
-    } else if (keys.key === source[key]) {
-      returnNewObj.source[key] = source[key];
+  var myKeys = Object.keys(source);
+  var returnVal = [];
+
+  for (var i = 0; i < myKeys.length; i++) {
+    for (var j = 0; j < keys.length; j++) {
+      if (myKeys[i] === keys[j]) {
+        returnVal.push(myKeys[i]);
+      }
     }
   }
-  if (returnNewObj.source[key] === {}) {
-    delete returnNewObj.source[key];
+  var returnObj = {};
+  var currKey;
+  var currVal;
+  for (var k = 0; k < returnVal.length; k++) {
+    currKey = returnVal[k];
+    currVal = source[currKey];
+
+    if (currVal !== undefined) {
+      returnObj[currKey] = currVal;
+    }
+
   }
-  return returnNewObj;
+  return returnObj;
 }
