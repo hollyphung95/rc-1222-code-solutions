@@ -57,7 +57,7 @@ var pokedex = [
   }
 ];
 
-function renderPokemon(pokemon) {
+function renderPokemon() {
 
   for (var i = 0; i < pokedex.length - 1; i++) {
     var $newContainer = document.querySelector('.container');
