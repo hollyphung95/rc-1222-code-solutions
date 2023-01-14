@@ -12,13 +12,9 @@ if all of the property keys in the array is found , the return object will retur
 function omit(source, keys) {
   var returnNewObj = {};
 
-  for (var key in source) {
-    for (var i = 0; i < keys.length; i++) {
-      if ([keys[i].value] === key) {
-        returnNewObj[keys[i].value] = source[key];
-      } else {
-        return returnNewObj;
-      }
+  for (const prop in source) {
+    if (!(keys.includes(prop))) {
+      returnNewObj[prop] = source[prop];
     }
   }
   return returnNewObj;

@@ -9,20 +9,5 @@ This function just does its job and doesnt return anything.
 */
 
 function defaults(target, source) {
-  var newTarget = {};
-  newTarget = Object.entries(target, source);
-
-  for (const [key, value] of Object.entries(source)) {
-    if (target[key]) {
-      newTarget[key] = value;
-    } else if (target.key) {
-      continue;
-    } else {
-      newTarget = Object.assign(target, source);
-    }
-  }
-
-  newTarget = Object.entries(source, target);
-
-  return newTarget;
+  Object.setPrototypeOf(target, source);
 }
